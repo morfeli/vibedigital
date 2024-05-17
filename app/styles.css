@@ -1,0 +1,26 @@
+@font-face {
+    font-family: 'Geist Regular';
+    src: url('/public/fonts/statics-woff/Geist-Regular.woff') format('woff'),
+         url('/public/fonts/statics-woff/Geist-Regular.woff2') format('woff2');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+  }
+
+  @font-face {
+    font-family: 'Geist Semibold';
+    src: url('/public/fonts/statics-woff/Geist-SemiBold.woff') format('woff'),
+         url('/public/fonts/statics-woff/Geist-Semibold.woff2') format('woff2');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+  }
+
+  @font-face {
+    font-family: 'Geist Bold';
+    src: url('/public/fonts/statics-woff/Geist-Bold.woff') format('woff'),
+         url('/public/fonts/statics-woff/Geist-Bold.woff2') format('woff2');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+  }
