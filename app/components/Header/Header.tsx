@@ -43,9 +43,9 @@ export const Header = () => {
   }, [isOpen]);
 
   return (
-    <header className="sticky top-0 z-50 p-4 lg:p-0 text-white border-b-2  border-b-white overflow-hidden overflow-y-scroll lg:py-4">
+    <header className="sticky top-0 z-50 p-4 overflow-hidden overflow-y-scroll lg:py-4 flex justify-between w-full items-center">
       <Navigation />
-      <div className="flex justify-end w-full lg:justify-center">
+      <div className="flex justify-end w-full md:hidden">
         <MobileBtn isOpen={isOpen} toggleMenu={toggleMenuHandler} />
         <MobileMenu isOpen={isOpen} closeMenu={closeMenuHandler} />
       </div>

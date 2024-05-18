@@ -1,4 +1,3 @@
-import clsx from "clsx";
 import { motion } from "framer-motion";
 
 type NavItemProps = {
@@ -6,7 +5,6 @@ type NavItemProps = {
   name: string;
   closeMenu?: React.MouseEventHandler<HTMLLIElement>;
   isMobile?: boolean;
-  activeTab?: string;
   onClick?: () => void;
   variants?: {
     closed: {
@@ -25,7 +23,6 @@ export const NavItem = ({
   isMobile,
   name,
   onClick,
-  activeTab,
 }: NavItemProps) => {
   const handleClick = (e: React.MouseEvent<HTMLAnchorElement>) => {
     const section = document.getElementById(`${link}`);
@@ -60,12 +57,7 @@ export const NavItem = ({
             aria-hidden
             id={`navLink-${link}`}
             onClick={onClick}
-            className={clsx(
-              "flex items-center  mx-auto transition-colors delay-75 ease-in-out relative tracking-wide",
-              {
-                "bg-[#6c757d]": activeTab === name,
-              }
-            )}
+            className="flex items-center px-5 transition-colors delay-75 ease-in-out relative tracking-wide"
           >
             {name}
           </li>

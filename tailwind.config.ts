@@ -11,8 +11,11 @@ export default {
 
       },
       fontFamily: {
+        'geist-regular': ['Geist Regular', 'sans-serif'], // Add the font family here
         'geist-semibold': ['Geist Semibold', 'sans-serif'], // Add the font family here
         'geist-bold': ['Geist Bold', 'sans-serif'], // Add the font family here
+        'geist-light': ['Geist Light', 'sans-serif'], // Add the font family here
+        'geist-thin': ['Geist Thin', 'sans-serif'], // Add the font family here
       },
     },
   },

@@ -24,3 +24,21 @@
     font-style: normal;
     font-display: swap;
   }
+
+  @font-face {
+     font-family: 'Geist Thin';
+     src: url('/public/fonts/statics-woff/Geist-Thin.woff') format('woff'),
+          url('/public/fonts/statics-woff/Geist-Thin.woff2') format('woff2');
+     font-weight: normal;
+     font-style: normal;
+     font-display: swap;
+   }
+
+   @font-face {
+     font-family: 'Geist Light';
+     src: url('/public/fonts/statics-woff/Geist-Light.woff') format('woff'),
+          url('/public/fonts/statics-woff/Geist-Light.woff2') format('woff2');
+     font-weight: normal;
+     font-style: normal;
+     font-display: swap;
+   }
