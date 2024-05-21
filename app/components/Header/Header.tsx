@@ -1,7 +1,7 @@
 import { useEffect, useState } from "react";
 import { MobileBtn } from "./MobileBtn";
 import { Navigation } from "./Navigation";
-import MobileMenu from "./MobileMenu";
+import MobileMenu from "~/components/Header/MobileMenu";
 
 export const Header = () => {
   const [isOpen, setIsOpen] = useState<boolean>(false);
@@ -43,7 +43,7 @@ export const Header = () => {
   }, [isOpen]);
 
   return (
-    <header className="sticky top-0 z-50 p-4 overflow-hidden overflow-y-scroll lg:py-4 flex justify-between w-full items-center">
+    <header className="sticky top-0 z-50 p-4 overflow-hidden overflow-y-scroll lg:py-4 flex justify-between w-full items-center bg-tangelo shadow-lg ">
       <Navigation />
       <div className="flex justify-end w-full md:hidden">
         <MobileBtn isOpen={isOpen} toggleMenu={toggleMenuHandler} />
