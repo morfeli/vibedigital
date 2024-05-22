@@ -2,10 +2,10 @@ import { NavItem } from "./NavItem";
 import { MoveUpRight } from "lucide-react";
 
 const pageLinks = [
-  { name: "About", to: "about", id: 7 },
-  { name: "Services", to: "services", id: 1 },
-  { name: "Process", to: "process", id: 1 },
-  { name: "Projects", to: "projects", id: 3 },
+  { name: "About", to: "about", id: 1 },
+  { name: "Services", to: "services", id: 2 },
+  { name: "Process", to: "process", id: 3 },
+  { name: "Projects", to: "projects", id: 4 },
 ];
 
 export const Navigation = () => {

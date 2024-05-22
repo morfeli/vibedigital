@@ -8,9 +8,10 @@ type MobileMenuProps = {
 };
 
 const links = [
-  { name: "About", to: "About", id: 1 },
-  { name: "Projects", to: "Projects", id: 3 },
-  { name: "Contact", to: "Contact", id: 5 },
+  { name: "About", to: "about", id: 1 },
+  { name: "Services", to: "services", id: 2 },
+  { name: "Process", to: "process", id: 3 },
+  { name: "Projects", to: "projects", id: 4 },
 ];
 
 const navBarVariants = {

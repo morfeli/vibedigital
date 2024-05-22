@@ -17,6 +17,9 @@ export default {
         'geist-light': ['Geist Light', 'sans-serif'], // Add the font family here
         'geist-thin': ['Geist Thin', 'sans-serif'], // Add the font family here
       },
+      screens: {
+        "mini-tablet": "500px"
+      }
     },
   },
   plugins: [],
