@@ -57,7 +57,7 @@ export const NavItem = ({
             aria-hidden
             id={`navLink-${link}`}
             onClick={onClick}
-            className="flex items-center px-5 transition-colors delay-75 ease-in-out relative tracking-wide text-sm"
+            className="flex items-center px-2 transition-colors delay-75 ease-in-out relative tracking-wide text-sm"
           >
             {name}
           </li>
