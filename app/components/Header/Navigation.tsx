@@ -1,6 +1,6 @@
 import { NavItem } from "./NavItem";
 import { MoveUpRight } from "lucide-react";
-import icon from "/public/assets/vibedigital-logo-white.png";
+import { Logo } from "../UI/Logo";
 
 const pageLinks = [
   { name: "About", to: "about", id: 1 },
@@ -19,11 +19,7 @@ export const Navigation = () => {
       </ul>
 
       <div>
-        <img
-          src={icon}
-          alt="logo"
-          className="object-cover w-[500px] h-[35px]"
-        />
+        <Logo classnames="object-cover w-[500px] h-[35px]" />
       </div>
 
       <div className="text-center flex text-white font-geist-light items-center space-x-4">

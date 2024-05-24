@@ -4,8 +4,11 @@ import { Hero } from "~/components/Hero/Hero";
 
 export const meta: MetaFunction = () => {
   return [
-    { title: "New Remix App" },
-    { name: "description", content: "Welcome to Remix!" },
+    { title: "VibeDigital" },
+    {
+      content:
+        "Digital agency specialized in web development, mobile app development, creative direction and branding.",
+    },
   ];
 };
 
@@ -14,7 +17,6 @@ export default function Index() {
     <div>
       <Header />
       <Hero />
-      <p>hello</p>
     </div>
   );
 }
