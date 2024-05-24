@@ -4,6 +4,12 @@ export default {
   content: ['./app/**/*.{js,jsx,ts,tsx}'],
   theme: {
     extend: {
+      backgroundImage: {
+        'hero-pattern': "url('/assets/vibedigital-wallpaper.png')",
+        'hero-pattern2': "url('/assets/vibedigital-wallpaper2.png')",
+
+
+      },
       colors: {
         "tangelo": "#f94d00",
         "cool-gray": "#cbd2d9",

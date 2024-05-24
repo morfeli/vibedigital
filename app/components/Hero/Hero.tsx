@@ -1,6 +1,6 @@
 export const Hero = () => {
   return (
-    <section className="bg-black1 h-screen text-white">
+    <section className="bg-hero-pattern2 bg-cover bg-no-repeat	w-screen h-screen text-white">
       <div className="flex flex-col sm:h-screen sm:justify-between pt-20">
         <p className="text-[7vw] self-center sm:text-[5vw] sm:self-start sm:pl-5 font-geist-semibold lg:w-[700px] lg:text-7xl lg:leading-[6rem] lg:uppercase desktop-1440:text-9xl desktop-1440:w-[1200px] desktop-1440:leading-[13rem]">
           We Turn Visions Into Reality
