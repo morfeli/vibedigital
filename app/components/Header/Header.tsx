@@ -44,10 +44,10 @@ export const Header = () => {
   }, [isOpen]);
 
   return (
-    <header className="sticky top-0 lg:px-10 z-50 p-4 overflow-hidden overflow-y-scroll lg:py-4 flex justify-between w-full items-center bg-orange1 shadow-lg">
+    <header className="sticky top-0 lg:px-10 z-50 p-4 overflow-hidden overflow-y-scroll lg:py-2 flex justify-between w-full items-center bg-orange1 shadow-lg">
       <Navigation />
       <div className="flex justify-between items-center w-full large-tablet:hidden">
-        <Logo classnames="object-cover w-[200px] h-[35px]" />
+        <Logo classnames="object-cover" />
         <MobileBtn isOpen={isOpen} toggleMenu={toggleMenuHandler} />
         <MobileMenu isOpen={isOpen} closeMenu={closeMenuHandler} />
       </div>

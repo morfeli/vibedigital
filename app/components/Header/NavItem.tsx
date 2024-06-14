@@ -34,7 +34,7 @@ export const NavItem = ({
     if (e.key === "Enter" || e.key === " ") {
       const section = document.getElementById(`${link}`);
       e.preventDefault();
-      section && section.scrollIntoView({ behavior: "smooth" });
+      section && section.scrollIntoView({ behavior: "auto" });
     }
   };
 

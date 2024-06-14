@@ -11,7 +11,7 @@ const pageLinks = [
 
 export const Navigation = () => {
   return (
-    <nav className="hidden mt-2 large-tablet:flex large-tablet:justify-between large-tablet:items-center w-full ">
+    <nav className="hidden large-tablet:flex large-tablet:justify-between large-tablet:items-center w-full ">
       <ul className="text-center flex text-tangelo font-geist-light bg-white p-2 rounded-3xl">
         {pageLinks.map(({ name, to, id }) => {
           return <NavItem key={id} link={to} name={name} />;
@@ -19,7 +19,7 @@ export const Navigation = () => {
       </ul>
 
       <div>
-        <Logo classnames="object-cover w-[500px] h-[35px]" />
+        <Logo classnames="w-[700px] object-cover h-[40px] scale-75" />
       </div>
 
       <div className="text-center flex text-white font-geist-light items-center space-x-4">
