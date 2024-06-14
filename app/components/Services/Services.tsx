@@ -1,14 +1,9 @@
-import { Link } from "@remix-run/react";
-
 export const Services = () => {
   return (
     <section className="w-full py-12 md:py-24 lg:py-32">
       <div className="container px-4 md:px-6">
         <div className="flex flex-col items-center justify-center space-y-4 text-center">
           <div className="space-y-2">
-            <div className="inline-block rounded-lg bg-gray-100 px-3 py-1 text-sm dark:bg-gray-800">
-              Our Services
-            </div>
             <h2 className="text-3xl font-bold tracking-tighter sm:text-5xl">
               Elevate Your Digital Presence
             </h2>
@@ -20,10 +15,7 @@ export const Services = () => {
         </div>
         <div className="mx-auto grid max-w-5xl grid-cols-1 gap-6 py-12 sm:grid-cols-2 lg:grid-cols-3 lg:gap-8">
           <div className="group relative overflow-hidden rounded-lg shadow-lg transition-all hover:shadow-xl">
-            <Link to="#" className="absolute inset-0 z-10">
-              <span className="sr-only">Web Development</span>
-            </Link>
-            <div className="flex h-full flex-col justify-between bg-white p-6 dark:bg-gray-950">
+            <div className="flex h-full flex-col justify-between bg-white p-6 ">
               <div>
                 <h3 className="text-xl font-bold tracking-tight">
                   Web Development
@@ -38,10 +30,7 @@ export const Services = () => {
             </div>
           </div>
           <div className="group relative overflow-hidden rounded-lg shadow-lg transition-all hover:shadow-xl">
-            <Link to="#" className="absolute inset-0 z-10">
-              <span className="sr-only">Mobile App Development</span>
-            </Link>
-            <div className="flex h-full flex-col justify-between bg-white p-6 dark:bg-gray-950">
+            <div className="flex h-full flex-col justify-between bg-white p-6 ">
               <div>
                 <h3 className="text-xl font-bold tracking-tight">
                   Mobile App Development
@@ -56,10 +45,7 @@ export const Services = () => {
             </div>
           </div>
           <div className="group relative overflow-hidden rounded-lg shadow-lg transition-all hover:shadow-xl">
-            <Link to="#" className="absolute inset-0 z-10">
-              <span className="sr-only">Graphic Design</span>
-            </Link>
-            <div className="flex h-full flex-col justify-between bg-white p-6 dark:bg-gray-950">
+            <div className="flex h-full flex-col justify-between bg-white p-6">
               <div>
                 <h3 className="text-xl font-bold tracking-tight">
                   Graphic Design
@@ -75,10 +61,7 @@ export const Services = () => {
             </div>
           </div>
           <div className="group relative overflow-hidden rounded-lg shadow-lg transition-all hover:shadow-xl">
-            <Link to="#" className="absolute inset-0 z-10">
-              <span className="sr-only">Brand Identities</span>
-            </Link>
-            <div className="flex h-full flex-col justify-between bg-white p-6 dark:bg-gray-950">
+            <div className="flex h-full flex-col justify-between bg-white p-6">
               <div>
                 <h3 className="text-xl font-bold tracking-tight">
                   Brand Identities
@@ -93,16 +76,28 @@ export const Services = () => {
             </div>
           </div>
           <div className="group relative overflow-hidden rounded-lg shadow-lg transition-all hover:shadow-xl">
-            <Link to="#" className="absolute inset-0 z-10">
-              <span className="sr-only">Creative Direction</span>
-            </Link>
-            <div className="flex h-full flex-col justify-between bg-white p-6 dark:bg-gray-950">
+            <div className="flex h-full flex-col justify-between bg-white p-6">
               <div>
                 <h3 className="text-xl font-bold tracking-tight">
                   Creative Direction
                 </h3>
                 <p className="mt-2 text-gray-500 dark:text-gray-400">
                   Guiding your vision and bringing it to life.
+                </p>
+              </div>
+              <div className="mt-4 flex items-center justify-between">
+                <button>Learn More</button>
+              </div>
+            </div>
+          </div>
+          <div className="group relative overflow-hidden rounded-lg shadow-lg transition-all hover:shadow-xl">
+            <div className="flex h-full flex-col justify-between bg-white p-6">
+              <div>
+                <h3 className="text-xl font-bold tracking-tight">
+                  Code Audits
+                </h3>
+                <p className="mt-2 text-gray-500 dark:text-gray-400">
+                  A comprehensive review and examination of your source code.
                 </p>
               </div>
               <div className="mt-4 flex items-center justify-between">
